@@ -1,0 +1,456 @@
+/* ../../desktop.blocks/logo/logo.css:begin */
+/* line 1, logo.scss */
+.logo {
+  background: url(../../common.blocks/img/logo.png) center center no-repeat;
+  width: 85px;
+  height: 70px;
+  margin: 10px 0;
+  float: left;
+}
+/* ../../desktop.blocks/logo/logo.css:end */
+/* ../../desktop.blocks/main-nav/main-nav.css:begin */
+/* line 1, main-nav.scss */
+.main-nav {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  background: -webkit-repeating-linear-gradient(90deg, #f1f1f1 3px, #e9e9e9 2px, transparent 8px);
+  background: repeating-linear-gradient(0deg, #f1f1f1 3px, #e9e9e9 2px, transparent 8px);
+  background: -webkit-repeating-linear-gradient(0deg, #f1f1f1 3px, #e9e9e9 2px, transparent 8px);
+  background: -o-repeating-linear-gradient(0deg, #f1f1f1 3px, #e9e9e9 2px, transparent 8px);
+  box-shadow: inset 0 0 30px whitesmoke, 0 -4px 4px rgba(213, 213, 213, 0.7), inset 0 -10px 20px rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 20, main-nav.scss */
+.main-nav__el {
+  padding: 0 8px;
+}
+/* line 23, main-nav.scss */
+.main-nav__el a {
+  text-decoration: none;
+  list-style: none;
+  font: 11px Arial, sans-serif;
+  color: #000;
+  padding: 10px 5px;
+  line-height: 40px;
+}
+/* line 31, main-nav.scss */
+.main-nav__el_check_true {
+  border-radius: 20px;
+  border: 3px solid #000;
+  background: #fff;
+  height: 30px;
+}
+/* line 37, main-nav.scss */
+.main-nav__el_check_true a {
+  line-height: 35px;
+}
+/* ../../desktop.blocks/main-nav/main-nav.css:end */
+/* ../../desktop.blocks/sub-nav/sub-nav.css:begin */
+/* line 1, main-nav.scss */
+.sub-nav {
+  width: 250px;
+  height: 15px;
+  margin-top: 11px;
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 13, main-nav.scss */
+.sub-nav a {
+  text-decoration: none;
+  list-style: none;
+  font: 12px Arial, sans-serif;
+  color: #000;
+  padding: 5px;
+  line-height: 15px;
+}
+/* ../../desktop.blocks/sub-nav/sub-nav.css:end */
+/* ../../desktop.blocks/info/info.css:begin */
+/* line 1, info.scss */
+.info {
+  clear: both;
+  margin-top: 15px;
+}
+/* line 4, info.scss */
+.info__name {
+  width: 370px;
+  float: left;
+}
+/* line 8, info.scss */
+.info__name h1 {
+  display: inline-block;
+  font: bold 21px Verdana, Arial, sans-serif;
+  color: #000;
+}
+/* line 13, info.scss */
+.info__name a {
+  display: inline-block;
+  font: 12px Arial, sans-serif;
+  color: #000;
+  border-bottom: 1px solid #e10025;
+  margin-left: 5px;
+  text-decoration: none;
+}
+/* line 21, info.scss */
+.info__call {
+  width: 230px;
+  float: right;
+}
+/* line 25, info.scss */
+.info__call div {
+  display: inline-block;
+  float: right;
+}
+/* line 29, info.scss */
+.info__call h2 {
+  font: bold 18px Verdana, Arial, sans-serif;
+  color: #000;
+}
+/* line 33, info.scss */
+.info__call a {
+  font: 12px Arial, sans-serif;
+  color: #000;
+  border-bottom: 1px dashed #e10025;
+  float: left;
+  margin-top: 5px;
+  text-decoration: none;
+}
+/* line 41, info.scss */
+.info__call img {
+  margin: 5px 10px 0 0;
+}
+/* ../../desktop.blocks/info/info.css:end */
+/* ../../desktop.blocks/minicars/minicars.css:begin */
+@charset "UTF-8";
+/* line 1, minicars.scss */
+.minicars {
+  clear: both;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 980px;
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 12, minicars.scss */
+.minicars__name {
+  font: bold 14px Arial, sans-serif;
+  color: #000;
+}
+/* line 16, minicars.scss */
+.minicars__el p {
+  font: bold 12px Arial, sans-serif;
+  color: #e10025;
+  padding-top: 10px;
+}
+
+/* line 23, minicars.scss */
+.minicars__name_share_true:after {
+  content: 'Акция';
+  font: bold 12px Arial, sans-serif;
+  color: #e17838;
+  padding-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+/* line 32, minicars.scss */
+.minicars_size_sm {
+  width: 820px;
+}
+/* ../../desktop.blocks/minicars/minicars.css:end */
+/* ../../desktop.blocks/content-big/content-big.css:begin */
+/* line 1, content-big.scss */
+.content-big {
+  width: 100%;
+  margin-top: 70px;
+}
+/* line 4, content-big.scss */
+.content-big__el {
+  width: 100%;
+}
+/* line 8, content-big.scss */
+.content-big__description h2 {
+  font: bold 53px Verdana, Arial, sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* line 14, content-big.scss */
+.content-big__description p {
+  font: bold 21px Verdana, Arial, sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* line 20, content-big.scss */
+.content-big__description a {
+  font: bold 14px Verdana, Arial, sans-serif;
+  position: relative;
+  color: #000;
+  top: 10px;
+  left: 0;
+  border-bottom: 1px solid #e10025;
+  width: 285px;
+  text-decoration: none;
+}
+/* line 30, content-big.scss */
+.content-big__description a:after {
+  content: '';
+  background: url(../../common.blocks/img/row.png) no-repeat;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin: 3px 0 0 5px;
+}
+
+/* line 41, content-big.scss */
+.content__pict {
+  padding-left: -30px;
+}
+/* ../../desktop.blocks/content-big/content-big.css:end */
+/* ../../desktop.blocks/footer/footer.css:begin */
+/* line 1, footer.scss */
+.footer {
+  width: 960px;
+  height: 265px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 7, footer.scss */
+.footer__menu {
+  float: left;
+  width: 140px;
+  height: 160px;
+  margin-top: 30px;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 15, footer.scss */
+.footer__menu:nth-of-type(1) h3 {
+  padding-bottom: 10px;
+}
+/* line 18, footer.scss */
+.footer__auto li {
+  padding: 3px 0;
+}
+/* line 21, footer.scss */
+.footer__auto a {
+  text-decoration: none;
+  list-style: none;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 27, footer.scss */
+.footer__el li {
+  padding: 6px 0;
+}
+/* line 30, footer.scss */
+.footer__el li:nth-of-type(1) {
+  padding-top: 0;
+}
+/* line 33, footer.scss */
+.footer__el a {
+  text-decoration: none;
+  list-style: none;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 39, footer.scss */
+.footer__media {
+  float: right;
+  margin-top: 30px;
+}
+/* line 42, footer.scss */
+.footer__media a {
+  padding: 0 2px;
+}
+/* line 46, footer.scss */
+.footer__copyrating {
+  clear: both;
+  height: 50px;
+  width: 960px;
+  margin: 25px auto 0 auto;
+  border-top: 1px solid #fff;
+  clear: both;
+  font: 10px Verdana, Arial, sans-serif;
+  color: #d5d5d5;
+  position: absolute;
+  bottom: 0;
+}
+/* line 58, footer.scss */
+.footer__cpr {
+  float: left;
+  padding-top: 15px;
+}
+/* line 62, footer.scss */
+.footer__project {
+  float: right;
+  padding-top: 15px;
+}
+
+/* line 68, footer.scss */
+.footer_size_sm {
+  width: 820px;
+}
+
+/* line 72, footer.scss */
+.footer__copyrating_size_sm {
+  width: 820px;
+}
+/* ../../desktop.blocks/footer/footer.css:end */
+/* ../../libs/bem-core/desktop.blocks/page/page.css:begin */
+.page
+{
+	width: 1020px;
+	margin: 0 auto;
+}
+/* ../../libs/bem-core/desktop.blocks/page/page.css:end */
+/* ../../desktop.blocks/page/page.css:begin */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, page.scss */
+body {
+  width: 100%;
+  min-width: 960px;
+}
+
+/* line 15, page.scss */
+.page {
+  width: 100%;
+  background: #fff;
+}
+/* line 18, page.scss */
+.page__header-bg {
+  width: 100%;
+  height: 3px;
+  background: #000;
+}
+/* line 23, page.scss */
+.page__header {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 27, page.scss */
+.page__nav {
+  width: 630px;
+  margin-left: 180px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 38, page.scss */
+.page__content {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 42, page.scss */
+.page__content-big {
+  width: 820px;
+  margin: 0 auto;
+}
+/* line 46, page.scss */
+.page__footer-bg {
+  background: #282727;
+  height: 265px;
+  clear: both;
+}
+
+/* line 53, page.scss */
+.page__header_size_sm {
+  width: 820px;
+}
+/* ../../desktop.blocks/page/page.css:end */
